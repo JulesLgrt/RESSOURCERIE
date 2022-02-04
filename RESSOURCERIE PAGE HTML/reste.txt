@@ -1,0 +1,48 @@
+ <section id="main">
+        <p><h6><a href="" style="color:midnightblue;"> BOUTIQUE</a> > <a href="" style="color:midnightblue;"> CANAPE</a> > <a href=""               style="color:midnightblue;"> JAUNE    </a></h6></p>
+        <img src=".//IMAGES/phillip-goldsberry-fZuleEfeA1Q-unsplash.jpg" alt="Canapé jaune" id="canap">
+    </section> 
+    
+    <aside id="description">
+            <h2>CANAPE</h2>
+            <p> BLABLABLABLABLABLABLABLABLABLABLA
+                </br> BLABLABLABLABLABLABLABLABLABLABLA
+                </br> BLABLABLABLABLABLABLABLABLABLABLA
+                </br> BLABLABLABLABLABLABLABLABLABLABLA
+                </br> BLABLABLABLABLABLABLABLABLABLABLA
+                </br> BLABLABLABLABLABLABLABLABLABLABLA
+            </p>
+    </aside>
+
+
+#main {
+    font-family: 'Bitter', serif;
+}
+
+    h6 { 
+        color: midnightblue;
+    }
+
+    #canap {
+        width: 30%;
+    }
+
+#description {
+    font-family: 'Bitter', serif;
+    float: right;
+    margin-right: 50px;
+    text-align: center; 
+}
+
+#rectangle2{
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;    
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    width:170px;
+    height:70px;
+    background: #5C80BC;
+    border-radius: 30px;  
+    }
